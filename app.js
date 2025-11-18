@@ -1,5 +1,8 @@
-function hello() {
-    console.log("Hello from Node.js Project!");
+function greet(name) {
+    if (!name) {
+        return "Hello, Guest!";
+    }
+    return "Hello, " + name + "!";
 }
 
-hello();
+console.log(greet("Ahmad"));
