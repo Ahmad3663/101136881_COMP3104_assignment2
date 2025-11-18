@@ -1,11 +1,11 @@
 {
-  "name": "comp3104_assignment2",
+  "name": "comp3104-assignment2",
   "version": "1.0.0",
-  "description": "Simple Node project for SonarQube",
+  "description": "Node.js project for SonarQube analysis",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "author": "Ahmad Ashoor",
-  "license": "MIT"
+  "license": "ISC"
 }
